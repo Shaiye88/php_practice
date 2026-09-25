@@ -268,6 +268,4 @@ After completing these assignments, I practiced how to:
 
 These exercises helped me build a stronger foundation in **PHP control structures, loops, mathematical operations, and problem-solving**. They are beginner-level exercises designed to improve my understanding of how PHP executes logic step by step.
 
-**Student Practice Project — PHP Fundamentals & Control Structures**
 
-Available next action: Create a downloadable DOCX file here in this chat containing the editable prose above
