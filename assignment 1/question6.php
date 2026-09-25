@@ -7,16 +7,21 @@
 <body>
     <?php
 
-$num = 12345;
-$reverse = 0;
+$a = 8;
+$b = 12;
 
-while ($num > 0) {
-    $digit = $num % 10;
-    $reverse = ($reverse * 10) + $digit;
-    $num = (int)($num / 10);
+$lcm = 1;
+
+while (true) {
+
+    if ($lcm % $a == 0 && $lcm % $b == 0) {
+        break;
+    }
+
+    $lcm++;
 }
 
-echo "Reverse = " . $reverse;
+echo "LCM of $a and $b = $lcm";
 
 ?>
 </body>

@@ -7,16 +7,19 @@
 <body>
     <?php
 
-$num = 12345;
-$reverse = 0;
+$a = 18;
+$b = 24;
 
-while ($num > 0) {
-    $digit = $num % 10;
-    $reverse = ($reverse * 10) + $digit;
-    $num = (int)($num / 10);
+$hcf = 1;
+
+for ($i = 1; $i <= $a && $i <= $b; $i++) {
+
+    if ($a % $i == 0 && $b % $i == 0) {
+        $hcf = $i;
+    }
 }
 
-echo "Reverse = " . $reverse;
+echo "HCF of $a and $b = $hcf";
 
 ?>
 </body>
